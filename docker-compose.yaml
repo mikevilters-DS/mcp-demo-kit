@@ -1,0 +1,17 @@
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mcp-demo-mssql
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Demo1234!"
+      MSSQL_PID: "Developer"
+    volumes:
+      - ./init.sql:/init.sql
+    healthcheck:
+      test: /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "Demo1234!" -C -Q "SELECT 1"
+      interval: 10s
+      timeout: 5s
+      retries: 5
