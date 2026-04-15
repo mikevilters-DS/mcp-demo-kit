@@ -59,6 +59,7 @@ Use the Git MCP to search the commit history for changes that could explain the 
 - Look at recent commits. Read diffs of suspicious ones.
 - Connect specific code changes to specific data issues from Phase 2.
 - If you find the root cause, explain the chain: what the code does wrong → what data it corrupted → what the customer experienced.
+- In this phase base yourself only off of the git. Don't explore code in the project
 
 ---
 
