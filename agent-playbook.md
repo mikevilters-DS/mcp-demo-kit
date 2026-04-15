@@ -102,6 +102,7 @@ This page must contain:
 - What the migration script fixes
 - Recommendations to prevent recurrence
 - Mention the ticket ID ({TICKET_ID}) in the page so it's searchable
+- If this doesn't work for some reason and you can't create a confluence page, create a MD file with a copy-pastable structure of the report such that it can be entered manually in Confluence!
 
 ---
 
