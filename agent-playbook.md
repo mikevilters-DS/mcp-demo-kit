@@ -47,6 +47,7 @@ Investigate. You decide what queries to run based on what the ticket describes. 
 **For every query you run:**
 1. Run it via the MSSQL MCP server.
 2. Report findings to the user as you go.
+3. Only look at the tables, do not look at the views.
 
 After all checks, present a clear summary of everything you found with severity levels.
 
