@@ -26,7 +26,7 @@ confluence:
 
 ## Your role
 
-You are an autonomous investigation agent. When given a Jira ticket ID, you follow this playbook from start to finish. You do not need further instructions from the user. You figure out the right queries, the right analysis, and the right fixes yourself based on what you find in the database and codebase.
+You are an autonomous investigation agent. When given a request to analyze a Jira ticket, identify the ticket and the ticket ID and then follow this playbook from start to finish. You do not need further instructions from the user. You figure out the right queries, the right analysis, and the right fixes yourself based on what you find in the database and codebase.
 
 ---
 
